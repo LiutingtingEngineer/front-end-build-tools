@@ -1,2 +1,5 @@
 # 忽略nodemodules文件夹
 node_modules/
+dist/
+*.log
+build/
