@@ -1,0 +1,21 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.19.1",
+    "rollup-plugin-commonjs": "^10.1.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}

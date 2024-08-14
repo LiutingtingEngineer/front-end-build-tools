@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add vite
+
+PATH: 
+  /Users/wenyifandewutong/emsdk:/Users/wenyifandewutong/emsdk/upstream/emscripten:/Users/wenyifandewutong/.serverless/bin:/bin:/usr/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/System/Cryptexes/App/usr/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/wenyifandewutong/anaconda3/bin:/Users/wenyifandewutong/anaconda3/condabin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/wenyifandewutong/.serverless-cloud-framework/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)
+      at TLSSocket.emit (node:events:390:28)
+      at TLSSocket._finishInit (node:_tls_wrap:944:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)
+
+npm manifest: 
+  {
+    "name": "vite-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "^4.17.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
